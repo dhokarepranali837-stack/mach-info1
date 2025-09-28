@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tablet Coating Pan Machine</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      text-align: center; 
+      padding: 20px; 
+      background: #f9f9f9;
+    }
+    img { 
+      width: 400px; 
+      margin-bottom: 20px; 
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+    button { 
+      margin: 10px; 
+      padding: 12px 20px; 
+      font-size: 16px; 
+      cursor: pointer; 
+      border-radius: 8px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    #infoBox {
+      margin-top: 30px;
+      font-size: 18px;
+      border: 2px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      background: #fff;
+      line-height: 1.7;
+      text-align: justify;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h2>Tablet Coating Pan Machine</h2>
+  <img src="tablet_coating_pan.jpg" alt="Tablet Coating Pan Machine">
+  <p><strong>Select a language to view details:</strong></p>
+  
+  <button onclick="showInfo('en')">English</button>
+  <button onclick="showInfo('hi')">हिंदी</button>
+  <button onclick="showInfo('mr')">मराठी</button>
+
+  <div id="infoBox"> </div>
+
+  <script>
+    function showInfo(lang) {
+      let content = "";
+
+      if (lang === 'en') {
+        content = `
+          <h3>About Tablet Coating Pan Machine</h3>
+          <p>The Tablet Coating Pan Machine is widely used in the pharmaceutical industry for coating tablets with a protective or decorative layer. 
+          It is mainly used for <strong>film coating and sugar coating</strong>.</p>
+          <p><b>Sugar Coating:</b> This is a traditional method, involving multiple steps such as sealing, sub-coating, smoothing, coloring, polishing, and printing.</p>
+          <p><b>Film Coating:</b> In this method, a polymer-based coating is sprayed on tablets. It is a single-step process that uses polymer, solvent, and plasticizer. 
+          The solvent dries quickly, leaving a thin protective film on the tablet.</p>
+          <p><b>Types of Coating Pans:</b> Conventional Coating Pan and Perforated Coating Pan.</p>
+          <p><b>Uses:</b> Improves appearance, makes tablets easier to swallow, controls drug release, and protects from moisture or air.</p>
+        `;
+      } 
+      else if (lang === 'hi') {
+        content = `
+          <h3>टैबलेट कोटिंग पैन मशीन के बारे में</h3>
+          <p>टैबलेट कोटिंग पैन मशीन का उपयोग फार्मास्युटिकल उद्योग में टैबलेट्स को एक सुरक्षात्मक या सजावटी परत से कोट करने के लिए किया जाता है। 
+          इसका मुख्य उपयोग <strong>फिल्म कोटिंग और शुगर कोटिंग</strong> में होता है।</p>
+          <p><b>शुगर कोटिंग:</b> यह पारंपरिक तरीका है जिसमें कई चरण होते हैं जैसे सीलिंग, सब-कोटिंग, स्मूदिंग, कलरिंग, पॉलिशिंग और प्रिंटिंग।</p>
+          <p><b>फिल्म कोटिंग:</b> इसमें पॉलिमर आधारित कोटिंग टैबलेट पर स्प्रे की जाती है। यह एक ही चरण की प्रक्रिया है जिसमें पॉलिमर, सॉल्वेंट और प्लास्टिसाइज़र का उपयोग किया जाता है। 
+          सुखाने के बाद टैबलेट पर एक पतली परत रह जाती है।</p>
+          <p><b>कोटिंग पैन के प्रकार:</b> पारंपरिक कोटिंग पैन और परफोरेटेड कोटिंग पैन।</p>
+          <p><b>उपयोग:</b> टैबलेट की सुंदरता बढ़ाना, निगलने में आसानी, दवा के रिलीज को नियंत्रित करना और नमी या हवा से बचाना।</p>
+        `;
+      } 
+      else if (lang === 'mr') {
+        content = `
+          <h3>टॅबलेट कोटिंग पॅन मशीन बद्दल</h3>
+          <p>टॅबलेट कोटिंग पॅन मशीनचा वापर औषध उद्योगात टॅबलेटवर सुरक्षात्मक किंवा सजावटी थर चढवण्यासाठी केला जातो. 
+          याचा मुख्य वापर <strong>फिल्म कोटिंग आणि साखर कोटिंग</strong> साठी होतो.</p>
+          <p><b>साखर कोटिंग:</b> ही पारंपरिक पद्धत आहे ज्यात अनेक टप्पे असतात जसे सीलिंग, सब-कोटिंग, गुळगुळीत करणे, रंग देणे, पॉलिश करणे आणि प्रिंटिंग.</p>
+          <p><b>फिल्म कोटिंग:</b> या प्रक्रियेत पॉलिमर आधारित कोटिंग टॅबलेटवर स्प्रे केली जाते. ही एक-स्टेप प्रक्रिया आहे ज्यात पॉलिमर, सॉल्व्हेंट आणि प्लॅस्टिसायझर वापरले जातात. 
+          सुकल्यानंतर टॅबलेटवर एक पातळ थर राहतो.</p>
+          <p><b>कोटिंग पॅनचे प्रकार:</b> पारंपरिक कोटिंग पॅन आणि परफोरेटेड कोटिंग पॅन.</p>
+          <p><b>वापर:</b> टॅबलेटचे आकर्षक रूप वाढवणे, गिळायला सोपे करणे, औषधाच्या रिलीजवर नियंत्रण ठेवणे आणि आर्द्रता किंवा हवेमुळे होणारे नुकसान टाळणे.</p>
+        `;
+      }
+
+      document.getElementById("infoBox").innerHTML = content;
+    }
+  </script>
+</body>
+</html>
